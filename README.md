@@ -1,35 +1,11 @@
 # HJA_snowmelt
 R workflow for snowmelt modelling in the H.J. Andrews Experimental Forest, integrating station data preprocessing, common observation periods, potential direct solar radiation, and model calibration across multiple stations using snow water equivalent observations. NOTE: Notations in the sctript are written in german!
 
-#BACHELORARBEIT: R-SKRIPT FÜR DEN H.J. ANDREWS EXPERIMENTAL FOREST
+#bachelor thesis - University of Bonn
 
 R code for the H. J. Andrews Forest workflow of my bachelor's thesis.
 
-Übersicht über die benötigten Packages:
-
-#Gegebenenfalls Packages installieren oder updaten: install.packages(c( "terra", "sf", "dplyr", "ggplot2", "readxl", "purrr", "lubridate", "stringr", "zoo"))
-
-#Packages aufrufen:
-
-library(terra)
-
-library(sf)
-
-library(dplyr)
-
-library(ggplot2)
-
-library(readxl)
-
-library(purrr)
-
-library(lubridate)
-
-library(stringr)
-
-library(zoo)
-
-Verwendete und weiterführende Literatur:
+References:
 
 ANDERSON, E. (2006): Snow Accumulation and Ablation Model – SNOW-17. [Online-Publikation]. [Zugriff am: 06.04.2026]. Verfügbar unter: https://www.weather.gov/media/owp/oh/hrl/docs/22snow17.pdf
 
